@@ -1,0 +1,108 @@
+//abstract
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+//base
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+//components
+@import "components/bg-video";
+@import "components/buttons";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/popup";
+@import "components/story";
+// layout
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+//pages
+@import "pages/home";
+
+//! first step with sass
+// $color-primary-yellow: #f9ed69;
+// $color-secondary: #f08a5d;
+// $color-tertiary: #b83b5e;
+// $color-text-dark: #333;
+// $width-btn: 15rem;
+
+// @mixin clearFix {
+//     &::after{
+//         content: "";
+//         clear: both;
+//         display: table;
+//     }
+// }
+
+// @mixin style-link-text($color) {
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     color: $color;
+// }
+
+// @function divide($a,$b){
+//     @return $a/ $b;
+// }
+
+// nav{
+//     margin: 3rem;
+//     background-color: $color-primary-yellow;
+
+//     @include clearFix;
+// }
+
+// .navigation{
+//     float: left;
+//     list-style: none;
+//     li{
+//         display: inline-block;
+//         margin-left: 3rem;
+
+//         &:first-child{
+//             margin: 0;
+//         }
+
+//         a{
+//             @include style-link-text($color-text-dark)
+//         }
+//     }
+// }
+
+// .buttons{
+//     float: right;
+// }
+
+// // extends
+// %btn-placeholder {
+//     text-align: center;
+//     padding: 1rem;
+//     border-radius: divide(100,10) * 1rem;
+//     display: inline-block;
+//     width: $width-btn;
+//     @include style-link-text($color-white)
+// }
+
+// .btn-main{
+//     &:link{
+//         @extend %btn-placeholder;
+//         background-color: $color-secondary;
+//     }
+//     &:hover{
+//         background-color: darken($color: $color-secondary, $amount: 15%);
+//     }
+// }
+
+// .btn-hot{
+//     &:link{
+//         @extend %btn-placeholder;
+//         background-color: $color-tertiary;
+//     }
+//     &:hover{
+//         background-color: lighten($color: $color-tertiary, $amount: 10%);
+//     }
+// }
